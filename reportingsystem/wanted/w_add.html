@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Add Data</title>
+	<link rel="stylesheet" type="text/css" href="../work/admin.css">
+</head>
+
+<body>
+	<header>
+		<div>
+	<ul class="links" >
+		<li>Home
+			<ul>
+			<li>
+			<a href="http://localhost/New/admin/admin_index.php">Admin_Home</a>
+			</li>
+			<li>
+			<a href="http://localhost/New/index.php">Main Home</a></li>
+			</ul>
+		</li>
+    	<li>login
+    		<ul>
+    			<li><a href="http://localhost/New/admin/admin_log.php"> admin</a></li>
+    			<li><a href="http://localhost/New/personnel/p_login.php">officer</a></li>
+    			<li><a href="http://localhost/New/login.php">user</a></li>
+    		</ul>
+    	</li>
+    	<li>view
+    		<ul>
+    		<li><a href="http://localhost/New/vview.php"> statement</a></li>
+    		<li><a href="http://localhost/New/station/station_view.php">police station</a></li>
+    		<li><a href="http://localhost/New/wanted/w_view.php">wanted people</a></li>
+    		</ul>
+    	</li>
+    	<li><a href="#">Contact us</a></li>
+    	<li><a href='logout.php'>Logout</a></li>
+	</ul>
+</div>
+</header>
+<div class="titl"><br/>
+	<h1>Wanted Persons Protal</h1>
+</div>
+	<a href="w_view.php" class="btn">View wanted persons</a>
+	<br/><br/>
+<div>
+	<form action="w_add.php" method="post" name="form1">
+		<table width="48%" border="0" class="portal" align="center">
+			<tr> 
+				<td>full name</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr> 
+				<td>national id or passport no</td>
+				<td><input type="text" name="idno"></td>
+			</tr>
+			<tr> 
+				<td>last seen location</td>
+				<td><input type="text" name="seen"></td>
+			</tr>
+			<tr> 
+				<td>image</td>
+				<td><input type="text" name="image"></td>
+			</tr>
+			<tr> 
+				<td></td>
+				<td><input type="submit" name="Submit" value="Add"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>
+

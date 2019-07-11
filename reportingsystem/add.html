@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Add Data</title>
+	<link rel="stylesheet" type="text/css" href="work/user.css">
+</head>
+
+<body>
+	<header>
+	<ul class="links" >
+		<li><a href="http://localhost/New/index.php">Home</a></li>
+    	<li>login
+    		<ul>
+    			<li><a href="http://localhost/New/login.php">user</a></li>
+    		</ul>
+    	</li>
+    	<li>view
+    		<ul>
+    		<li><a href="http://localhost/New/view.php"> statement</a></li>
+    		<li><a href="http://localhost/New/vstation.php">police station</a></li>
+    		<li><a href="http://localhost/New/vwanted.php">wanted people</a></li>
+    		</ul>
+    	</li>
+    	<li><a href="#">Contact us</a></li>
+    	<li><a href="http://localhost/New/logout.php">Logout</a></li>
+		</ul>
+	</header>
+	<div class="titl"><br/>
+	<h1>Add Statement</h1>
+	</div>
+	<a href="http://localhost/New/view.php" class="btn">view statement</a><br/><br/>
+	<div>
+	<form action="add.php" method="post" name="form1">
+		<table width="48%" border="0" class="portal" align="center">
+			<tr> 
+				<td>Email<br/><input type="email" name="email" placeholder="Enter your email"></td>
+			</tr>
+			<tr> 
+				<td>Phone<br/><input type="text" name="phoneno" placeholder="Enter your mobile no."></td>
+			</tr>
+			<tr> 
+				<td>Statement report<input type="text" name="statement" placeholder="Enter your Statement"></td>
+			</tr>
+				<td><input type="submit" name="Submit" value="Add"></td>
+		</table>
+	</form>
+</div>
+</body>
+</html>
+
